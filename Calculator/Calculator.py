@@ -28,27 +28,27 @@ def operation():
     
 #Buttons
 
-b1 = Button(window, text = "1", width = 5, height = 2, command = lambda: click_button(1))
-b2 = Button(window, text = "2", width = 5, height = 2, command = lambda: click_button(2))
-b3 = Button(window, text = "3", width = 5, height = 2, command = lambda: click_button(3))
-b4 = Button(window, text = "4", width = 5, height = 2, command = lambda: click_button(4))
-b5 = Button(window, text = "5", width = 5, height = 2, command = lambda: click_button(5))
-b6 = Button(window, text = "6", width = 5, height = 2, command = lambda: click_button(6))
-b7 = Button(window, text = "7", width = 5, height = 2, command = lambda: click_button(7))
-b8 = Button(window, text = "8", width = 5, height = 2, command = lambda: click_button(8))
-b9 = Button(window, text = "9", width = 5, height = 2, command = lambda: click_button(9))
-b0 = Button(window, text = "0", width = 5, height = 2, command = lambda: click_button(0))
+b1 = Button(window, text = "1", width = 7, height = 2, command = lambda: click_button(1))
+b2 = Button(window, text = "2", width = 7, height = 2, command = lambda: click_button(2))
+b3 = Button(window, text = "3", width = 7, height = 2, command = lambda: click_button(3))
+b4 = Button(window, text = "4", width = 7, height = 2, command = lambda: click_button(4))
+b5 = Button(window, text = "5", width = 7, height = 2, command = lambda: click_button(5))
+b6 = Button(window, text = "6", width = 7, height = 2, command = lambda: click_button(6))
+b7 = Button(window, text = "7", width = 7, height = 2, command = lambda: click_button(7))
+b8 = Button(window, text = "8", width = 7, height = 2, command = lambda: click_button(8))
+b9 = Button(window, text = "9", width = 7, height = 2, command = lambda: click_button(9))
+b0 = Button(window, text = "0", width = 7, height = 2, command = lambda: click_button(0))
 
-button_erase = Button(window, text = "AC", width = 5, height = 2, command = lambda: erase())
-button_parenthesis_Right = Button(window, text = "(", width = 5, height = 2, command = lambda: click_button("("))
-button_parenthesis_Left = Button(window, text = ")", width = 5, height = 2, command = lambda: click_button(")"))
-button_point = Button(window, text =".", width = 5, height= 2, command= lambda: click_button("."))
+button_erase = Button(window, text = "AC", width = 8, height = 2, command = lambda: erase())
+button_parenthesis_Right = Button(window, text = "(", width = 8, height = 2, command = lambda: click_button("("))
+button_parenthesis_Left = Button(window, text = ")", width = 8, height = 2, command = lambda: click_button(")"))
+button_point = Button(window, text =".", width = 8, height= 2, command= lambda: click_button("."))
 
-button_div = Button(window, text= "/", width= 5, height= 2, command= lambda: click_button("/"))
-button_multiply = Button(window, text= "*", width= 5, height= 2, command= lambda: click_button("*"))
-button_sum = Button(window, text= "+", width= 5, height= 2, command= lambda: click_button("+"))
-button_rest = Button(window, text= "-", width= 5, height= 2, command= lambda: click_button("-"))
-button_equal = Button(window, text= "=", width= 5, height= 2, command= lambda: operation())
+button_div = Button(window, text= "/", width= 8, height= 2, command= lambda: click_button("/"))
+button_multiply = Button(window, text= "*", width= 8, height= 2, command= lambda: click_button("*"))
+button_sum = Button(window, text= "+", width= 8, height= 2, command= lambda: click_button("+"))
+button_rest = Button(window, text= "-", width= 8, height= 2, command= lambda: click_button("-"))
+button_equal = Button(window, text= "=", width= 8, height= 2, command= lambda: operation())
 
 #Add buttons to the window
 
