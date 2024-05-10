@@ -7,6 +7,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #000;
 }
 
 nav {
@@ -53,7 +54,7 @@ nav a {
 .title {
     grid-column: 1/4;
     grid-row: 1/2;
-    color: rgb(255, 244, 244);
+    color: rgb(229, 255, 0);
     font-size: 2rem;
     font-family: "Gloria Hallelujah", cursive;
     padding: 0 2rem;
@@ -62,7 +63,7 @@ nav a {
 .name {
     grid-column: 1/4;
     grid-row: 2/3;
-    color: rgb(235, 129, 129);
+    color: rgb(255, 250, 250);
     font-size: 2rem;
     padding: 0 2rem;
     margin-top: -1vh;
