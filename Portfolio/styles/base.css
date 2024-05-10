@@ -62,7 +62,6 @@ nav a {
 
 .name {
     grid-column: 1/4;
-    grid-row: 2/3;
     color: rgb(255, 250, 250);
     font-size: 2rem;
     padding: 0 2rem;
@@ -71,23 +70,13 @@ nav a {
     text-align: center;
 }
 
-.button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.technologies {
     background-color: rgba(235, 129, 129, 0.8);
     grid-column: 1/4;
-    grid-row: 3/4;
     width: 200px;
     min-height: 150px;
     align-self: center;
     margin: -2vh auto 0 auto;
     padding: 0  2rem;
-}
-
-button {
-    margin: 10px auto; 
-    height: 50px;
-    width: 100px;
 }
 
