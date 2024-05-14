@@ -58,6 +58,7 @@ nav a {
     font-size: 2rem;
     font-family: "Gloria Hallelujah", cursive;
     padding: 0 2rem;
+    letter-spacing: 5px;
 }
 
 .name {
@@ -68,6 +69,8 @@ nav a {
     margin-top: -1vh;
     font-family: "Gloria Hallelujah", cursive;
     text-align: center;
+    letter-spacing: 5px;
+
 }
 
 .technologies {
