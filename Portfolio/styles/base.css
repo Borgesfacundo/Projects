@@ -65,12 +65,15 @@ nav a {
     background-color: rgba(201, 201, 201, 0.8);
     grid-column: 1/4;
     grid-row: 3/6;
+    font-size: 1.4rem;
     width: 600px;
     height: 250px;
     margin: 0 auto;
-    padding: .5rem;
+    padding: 2rem;
     border-radius: 5px;
     border: 1px;
     align-self: center;
+    align-content: center;
 }
+
 
