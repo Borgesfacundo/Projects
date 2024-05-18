@@ -76,4 +76,16 @@ nav a {
     align-content: center;
 }
 
+.knowledge-container, .projects-container {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
 
+.knowledge-container {
+    grid-column: 1/2;
+}
+
+.projects-container {
+    grid-column: 3/4;
+}
