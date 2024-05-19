@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #0b042d;
+    background-color: #1b1b1b;
     box-sizing: border-box;
 }
 
@@ -69,7 +69,7 @@ nav a:hover {
 
 
 .biografy {
-    background-color: rgba(201, 201, 201, 0.8);
+    background-color: #4e4e4e;
     grid-column: 1/4;
     grid-row: 3/6;
     font-size: 2rem;
