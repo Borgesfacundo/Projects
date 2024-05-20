@@ -3,7 +3,7 @@
         list-style: none;
         justify-content: flex-end;
         display: flex;
-        margin-top: 0;
+        margin: 0 auto;
     }
 
     #hero {
