@@ -44,32 +44,48 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    grid-auto-rows: 125px;
+    grid-auto-rows: 150px;
 }
 
 .title,
 .name {
-    grid-column: 1/4;
-    font-size: 2rem;
+    grid-column: 2/4;
+    font-size: 2.5rem;
     font-family: "Gloria Hallelujah", cursive;
     padding: 0 2rem;
     text-align: center;
     letter-spacing: 5px;
     box-sizing: border-box;
     align-self: center;
+    justify-self: left;
 }
 
 .title {
-    color: rgb(229, 255, 0);
+    color: rgb(139, 11, 231);
+    grid-row: 1/2;
 }
 
 .name {
     color: rgb(255, 250, 250);
+    grid-row: 2/3;
+    padding-left: 5vw;
+}
+
+.portrait {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: center;
+    border: 1px solid red;
+    border-radius: 9999px;
+    width: 220px;
+    height: 220px;
 }
 
 
 .biografy {
-    background-color: #4e4e4e;
+    background-color: #1b1b1b;
+    color: aliceblue;
     grid-column: 1/4;
     grid-row: 3/6;
     font-size: 2rem;
@@ -81,8 +97,7 @@ nav a:hover {
     border: 1px;
     align-self: center;
     align-content: center;
-    border: 2px solid rgba(148, 0, 161, 0.8);
-    box-shadow: -2px 2px rgb(89, 85, 85);
+    border: 2px solid red;
 }
 
 .about-me {
