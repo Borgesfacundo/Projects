@@ -52,7 +52,7 @@ nav a:hover {
     grid-column: 2/4;
     font-size: 2.5rem;
     font-family: "Gloria Hallelujah", cursive;
-    padding: 0 2rem;
+    padding: 0 1rem;
     text-align: center;
     letter-spacing: 5px;
     box-sizing: border-box;
@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .title {
-    color: rgb(139, 11, 231);
+    color: #cc86df;
     grid-row: 1/2;
 }
 
