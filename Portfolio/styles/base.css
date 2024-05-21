@@ -99,11 +99,6 @@ nav a:hover {
 
 }
 
-.skills {
-    border: 1px solid red;
-    padding: 1.5rem;
-}
-
 .projects {
     background-color: red;
     padding: 1rem;
@@ -114,7 +109,10 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 30px;
+    border: 1px solid red;
+    padding: 1.5rem;
     color: #fff;
+    justify-items: center;
 }
 
 .skills div img {
