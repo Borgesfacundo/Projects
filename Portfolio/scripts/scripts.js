@@ -11,6 +11,11 @@ const displaySkills = (skills) => {
         p.textContent = `${skill.name}`;
         img.setAttribute("src", skill.img);
         img.setAttribute("alt", skill.desc);
+        img.setAttribute("loading", "lazy")
+        img.setAttribute("width", "50")
+        img.setAttribute("height", "50")
+
+
 
         div.appendChild(p);
         div.appendChild(img)

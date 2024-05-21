@@ -109,7 +109,10 @@ nav a:hover {
     margin: 1rem 2rem;
 }
 
-
+.skills div {
+    width: 50px;
+    height: 100%;
+}
 
 footer {
     background-color: rgba(148, 0, 161, 0.8);
