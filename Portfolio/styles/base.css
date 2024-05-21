@@ -111,12 +111,13 @@ nav a:hover {
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(autofill, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 30px;
+    color: #fff;
 }
 
 .skills div {
-    width: 50px;
-    height: 100%;
+    width: 100%;
 }
 
 footer {
