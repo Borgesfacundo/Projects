@@ -116,8 +116,8 @@ nav a:hover {
     color: #fff;
 }
 
-.skills div {
-    width: 100%;
+.skills div img {
+    width: 100px;
 }
 
 footer {

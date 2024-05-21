@@ -12,8 +12,8 @@ const displaySkills = (skills) => {
         img.setAttribute("src", skill.img);
         img.setAttribute("alt", skill.desc);
         img.setAttribute("loading", "lazy")
-        img.setAttribute("width", "50")
-        img.setAttribute("height", "50")
+        img.setAttribute("width", "100")
+        img.setAttribute("height", "100")
 
 
 
