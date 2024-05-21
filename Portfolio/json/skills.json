@@ -1,0 +1,32 @@
+[
+    {
+        "name": "HTML",
+        "img": "https://iconscout.com/icon/html-2752158",
+        "desc": "HTML5 icon"
+    },
+    {
+        "name": "CSS",
+        "img": "https://iconscout.com/free-icon/css-131",
+        "desc": "CSS icon"
+    },
+    {
+        "name": "JS",
+        "img": "https://iconscout.com/free-icon/javascript-2038874",
+        "desc": "Javascript icon"
+    },
+    {
+        "name": "React",
+        "img": "https://iconscout.com/icon/react-2752089",
+        "desc": "React icon"
+    },
+    {
+        "name": "C#",
+        "img": "https://iconscout.com/free-icon/javascript-2038874",
+        "desc": "C# icon"
+    },
+    {
+        "name": "Python",
+        "img": "https://iconscout.com/icon/python-2752092",
+        "desc": "Python icon"
+    }
+]
