@@ -109,6 +109,11 @@ nav a:hover {
     margin: 1rem 2rem;
 }
 
+.skills {
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax(50px, 1fr));
+}
+
 .skills div {
     width: 50px;
     height: 100%;
