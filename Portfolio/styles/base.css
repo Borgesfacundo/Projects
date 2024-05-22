@@ -9,6 +9,7 @@ body {
     margin: 0;
     background-color: #1b1b1b;
     box-sizing: border-box;
+
 }
 
 nav {
@@ -46,23 +47,12 @@ nav a:hover {
     margin: 1rem;
 }
 
-.title,
 .name {
+    color: #fff;
     font-size: 1.5rem;
     font-family: "Gloria Hallelujah", cursive;
     padding: 0 2rem;
-    letter-spacing: 4px;
-    box-sizing: border-box;
-}
-
-.title {
-    color: #cc86df;
-    grid-row: 1/2;
-}
-
-.name {
-    color: rgb(255, 250, 250);
-    grid-row: 2/3;
+    letter-spacing: 3px;
 }
 
 .portrait {

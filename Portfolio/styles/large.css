@@ -22,25 +22,30 @@
 
     #hero {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 2fr 1fr;
         text-align: center;
         grid-auto-rows: minmax(130px, auto);
         align-content: center;
+        margin-top: 2rem;
     }
 
-    .title,
     .name {
         grid-column: 2/3;
+        align-self: end;
     }
 
     .portrait {
         grid-column: 1/2;
-        grid-row: 1/4;
+        grid-row: 1/2;
+        justify-self: end;
+
     }
 
-    .biografy {
+    .description {
         grid-column: 1/4;
-        grid-row: 3/6;
+        grid-row: 4/6;
+        width: 50%;
+        justify-self: center;
     }
 
     .about-me {
