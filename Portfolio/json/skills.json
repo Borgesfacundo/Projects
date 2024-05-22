@@ -1,12 +1,12 @@
 [
     {
         "name": "HTML",
-        "img": "images/html.webp",
+        "img": "https://svgl.app/library/html5.svg",
         "desc": "HTML5 icon"
     },
     {
         "name": "CSS",
-        "img": "images/css.webp",
+        "img": "https://svgl.app/library/css.svg",
         "desc": "CSS icon"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "name": "React",
-        "img": "images/React.webp",
+        "img": "https://svgl.app/library/react.svg",
         "desc": "React icon"
     },
     {
