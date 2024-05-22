@@ -11,7 +11,7 @@
     },
     {
         "name": "JS",
-        "img": "images/Js.webp",
+        "img": "https://svgl.app/library/javascript.svg",
         "desc": "Javascript icon"
     },
     {
@@ -21,22 +21,22 @@
     },
     {
         "name": "C#",
-        "img": "images/CSharp.webp",
+        "img": "https://svgl.app/library/csharp.svg",
         "desc": "C# icon"
     },
     {
         "name": "Python",
-        "img": "images/Python.webp",
+        "img": "https://svgl.app/library/python.svg",
         "desc": "Python icon"
     },
     {
         "name": "Git",
-        "img": "images/Git.webp",
+        "img": "https://svgl.app/library/git.svg",
         "desc": "Git icon"
     },
     {
         "name": "Github",
-        "img": "images/Github.webp",
+        "img": "https://svgl.app/library/github.svg",
         "desc": "Github icon"
     }
 ]
