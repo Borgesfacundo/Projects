@@ -65,7 +65,6 @@ nav a:hover {
     margin: 0 auto;
 }
 
-
 .description {
     background-color: #1b1b1b;
     color: aliceblue;
@@ -89,9 +88,10 @@ nav a:hover {
 }
 
 .projects {
-    background-color: red;
     padding: 1rem;
     margin-top: 2rem;
+    border: 1px solid red;
+    color: #fff;
 }
 
 .skills {
