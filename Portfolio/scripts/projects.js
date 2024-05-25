@@ -1,4 +1,4 @@
-const projects = document.querySelector(".projects");
+const projectsClass = document.querySelector(".projects");
 
 let projectsList = {};
 
@@ -33,7 +33,7 @@ const displayProject = (projects) => {
         footer.appendChild(preview);
         article.appendChild(footer)
 
-        projects.appendChild(article);
+        projectsClass.appendChild(article);
     })
 }
 
