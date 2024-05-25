@@ -21,8 +21,8 @@ const displayProject = (projects) => {
         img.setAttribute("loading", "lazy");
 
         description.textContent = project.desc;
-        code.setAttribute("href", project.code);
-        preview.setAttribute("href", project.preview);
+        code.setAttribute("href", project.github);
+        preview.setAttribute("href", project.web);
 
         imgDiv.appendChild(img);
         article.appendChild(imgDiv);

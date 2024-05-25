@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Yugi Mutto First Deck",
+        "desc": "In this page I used a JSON file that I created to add all cards in the webpage.",
+        "img": "",
+        "github": "https://github.com/Borgesfacundo/cse121b/tree/main/Final%20Project",
+        "web": "https://borgesfacundo.github.io/cse121b/Final%20Project/project.html"
+    },
+    {
+        "name": "Chamber of Commerce Project",
+        "desc": "Here I create an example of a Chamber of Commerce webpage and worked to make it responsive design. Also included some Api to get the weather information",
+        "img": "",
+        "github": "https://github.com/Borgesfacundo/wdd230/tree/main/chamber",
+        "web": "https://borgesfacundo.github.io/wdd230/chamber/index.html"
+    },
+    {
+        "name": "ARTZY Website",
+        "desc": "It was my first webpage I created and published using html and CSS.",
+        "img": "",
+        "github": "https://github.com/Borgesfacundo/wdd130/tree/master/artzy",
+        "web": "https://borgesfacundo.github.io/wdd130/artzy/help.html"
+    }
+]
