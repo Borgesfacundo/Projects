@@ -16,7 +16,7 @@ const displayProject = (projects) => {
         const preview = document.createElement("a");
 
         title.textContent = project.name;
-        img.setAttribute("src", project.src);
+        img.setAttribute("src", project.img);
         img.setAttribute("alt", project.name);
         img.setAttribute("loading", "lazy");
 
