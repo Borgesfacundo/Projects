@@ -38,7 +38,7 @@ const displayProject = (projects) => {
 }
 
 const getProjects = async () => {
-    const response = await fetch("https://borgesfacundo.github.io/Projects/Portfolio/json/skills.json");
+    const response = await fetch("./json/projects.json");
     if (response.ok) {
         const data = await response.json();
         projectsList = data;
