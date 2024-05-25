@@ -22,7 +22,11 @@ const displayProject = (projects) => {
 
         description.textContent = project.desc;
         code.setAttribute("href", project.github);
+        code.textContent = `Code`;
+
+
         preview.setAttribute("href", project.web);
+        preview.textContent = `Web`;
 
         imgDiv.appendChild(img);
         article.appendChild(imgDiv);
@@ -31,7 +35,7 @@ const displayProject = (projects) => {
         article.appendChild(content);
         footer.appendChild(code);
         footer.appendChild(preview);
-        article.appendChild(footer)
+        article.appendChild(footer);
 
         projectsClass.appendChild(article);
     })
