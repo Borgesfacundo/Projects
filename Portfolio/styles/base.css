@@ -94,9 +94,25 @@ nav a:hover {
     color: #fff;
 }
 
+article footer {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15%;
+}
+
 article footer a {
     color: #fff;
-    font-size: 100px;
+    font-size: 1rem;
+}
+
+article footer a:nth-child(1) {
+    justify-self: end;
+}
+
+article footer a:nth-child(2) {
+    justify-self: start;
+
 }
 
 .skills {
