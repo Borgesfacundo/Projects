@@ -26,7 +26,7 @@
     },
     {
         "name": "Python",
-        "img": "https://svgl.app/library/python.svg",
+        "img": "./images/pyIcon.webp",
         "desc": "Python icon"
     },
     {
