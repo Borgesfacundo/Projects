@@ -7,14 +7,14 @@
         "web": "https://borgesfacundo.github.io/cse121b/Final%20Project/project.html"
     },
     {
-        "name": "Chamber of Commerce Project",
+        "name": "Juliers - Chamber of Commerce",
         "desc": "This is an example of a Chamber of Commerce website in which the user can see some information about the neighboarhood, the local bussinesses and join the Chamber completing a form.",
         "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ChamberOfCommerce.webp",
         "github": "https://github.com/Borgesfacundo/wdd230/tree/main/chamber",
         "web": "https://borgesfacundo.github.io/wdd230/chamber/index.html"
     },
     {
-        "name": "ARTZY Website",
+        "name": "ARTZY Design",
         "desc": "Artzy is my first project based on a webpage that is offering webpages to the user. Created with HTML and CSS.",
         "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ArtzyWebpage.webp",
         "github": "https://github.com/Borgesfacundo/wdd130/tree/master/artzy",

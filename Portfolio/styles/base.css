@@ -82,12 +82,13 @@ nav a:hover {
     grid-template-columns: 1fr;
     text-align: center;
     box-sizing: border-box;
-    margin: 2.5rem 1rem;
+    margin: 1rem;
     justify-content: center;
 }
 
 .projects {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin-top: 2rem;
     color: #fff;
 }
@@ -95,11 +96,13 @@ nav a:hover {
 .projects article {
     border: 1px solid red;
     border-radius: 4px;
-    padding: 1rem;
+    padding-bottom: 1rem;
+    margin: 3rem 0;
 }
 
 .projects .shrink img {
     transition: 1s ease;
+    border-radius: 6px;
 }
 
 .projects .shrink img:hover {
@@ -164,12 +167,11 @@ article footer a:nth-child(2) {
 .skills {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 30px;
     border: 1px solid red;
     padding: 1.5rem;
     color: #fff;
     justify-items: center;
-    background-color: rgb(138, 145, 151);
+    margin-top: -1rem;
 }
 
 .skills div img {
