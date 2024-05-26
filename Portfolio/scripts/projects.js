@@ -6,6 +6,7 @@ const displayProject = (projects) => {
     projects.forEach(project => {
         const article = document.createElement("article");
         const imgDiv = document.createElement("div");
+        imgDiv.className = "shrink";
         const img = document.createElement("img");
         const content = document.createElement("div");
 

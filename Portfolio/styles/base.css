@@ -83,19 +83,53 @@ nav a:hover {
     text-align: center;
     box-sizing: border-box;
     margin: 2.5rem 1rem;
-    row-gap: 1rem;
     justify-content: center;
 }
 
 .projects {
     padding: 1rem;
     margin-top: 2rem;
-    border: 1px solid red;
     color: #fff;
 }
 
+.projects article {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.projects .shrink img {
+    transition: 1s ease;
+}
+
+.projects .shrink img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.projects h2 {
+    display: flex;
+    padding-left: 1rem;
+    color: yellow;
+    font-size: 2rem;
+}
+
+.projects div {
+    margin: 1rem;
+}
+
+.projects div h3 {
+    color: yellow;
+}
+
+.projects div p {
+    padding: 0 2rem;
+    font-size: 1rem;
+}
+
 article footer {
-    background-color: #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15%;
@@ -104,6 +138,18 @@ article footer {
 article footer a {
     color: #fff;
     font-size: 1rem;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(43, 43, 36);
+    width: 100px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+article footer a:hover {
+    background-color: #fff;
+    color: #030712;
 }
 
 article footer a:nth-child(1) {
@@ -142,7 +188,7 @@ article footer a:nth-child(2) {
     width: 100px;
 }
 
-footer {
+.foot {
     background-color: rgba(148, 0, 161, 0.8);
     color: white;
 }

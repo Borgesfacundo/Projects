@@ -57,10 +57,33 @@
         grid-column: 2/3;
     }
 
+    .projects article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .projects article div {
+        justify-content: center;
+    }
+
+    .projects article div p {
+        width: 100%;
+        max-width: fit-content;
+    }
+
+    .projects article footer {
+        grid-column: 2/3;
+        justify-content: center;
+    }
+
     .skills {
         grid-row: 2/3;
         grid-column: 2/3;
     }
+
 
 
 }

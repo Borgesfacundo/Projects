@@ -1,21 +1,21 @@
 [
     {
         "name": "Yugi Mutto First Deck",
-        "desc": "In this page I used a JSON file that I created to add all cards in the webpage.",
+        "desc": "In this project I had to create a page that shows to the users all cards that were in a JSON file using JavaScript, CSS and HTML.",
         "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/YuGiOhWebpage.webp",
         "github": "https://github.com/Borgesfacundo/cse121b/tree/main/Final%20Project",
         "web": "https://borgesfacundo.github.io/cse121b/Final%20Project/project.html"
     },
     {
         "name": "Chamber of Commerce Project",
-        "desc": "Here I create an example of a Chamber of Commerce webpage and worked to make it responsive design. Also included some Api to get the weather information",
+        "desc": "This is an example of a Chamber of Commerce website in which the user can see some information about the neighboarhood, the local bussinesses and join the Chamber completing a form.",
         "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ChamberOfCommerce.webp",
         "github": "https://github.com/Borgesfacundo/wdd230/tree/main/chamber",
         "web": "https://borgesfacundo.github.io/wdd230/chamber/index.html"
     },
     {
         "name": "ARTZY Website",
-        "desc": "It was my first webpage I created and published using html and CSS.",
+        "desc": "Artzy is my first project based on a webpage that is offering webpages to the user. Created with HTML and CSS.",
         "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ArtzyWebpage.webp",
         "github": "https://github.com/Borgesfacundo/wdd130/tree/master/artzy",
         "web": "https://borgesfacundo.github.io/wdd130/artzy/help.html"
