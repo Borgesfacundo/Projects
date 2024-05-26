@@ -36,7 +36,7 @@
     },
     {
         "name": "Github",
-        "img": "https://svgl.app/library/github.svg",
+        "img": "./images/githubwhite.webp",
         "desc": "Github icon"
     }
 ]
