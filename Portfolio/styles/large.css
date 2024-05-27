@@ -81,10 +81,7 @@
     .skills {
         grid-row: 3/4;
         grid-column: 2/3;
-    }
-
-    .skills div img {
-        width: 60px;
+        gap: 10px;
     }
 
     .skills-title {
