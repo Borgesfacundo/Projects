@@ -213,7 +213,8 @@ article footer a:nth-child(2) {
 }
 
 .skills div img {
-    width: 100%;
+    width: 70px;
+    height: 70px;
     transition: 1.5s ease;
 }
 
