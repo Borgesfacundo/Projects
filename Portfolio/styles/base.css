@@ -123,6 +123,7 @@ nav a:hover {
     color: yellow;
     font-size: 1.5rem;
     letter-spacing: .1rem;
+    align-self: center;
 }
 
 .projects div {
