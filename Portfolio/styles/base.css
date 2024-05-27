@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    background-color: rgba(69, 1, 75, 0.8);
+    background-color: rgba(94, 94, 94, 0.5);
 }
 
 nav ul {
@@ -35,8 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0b042d;
-    color: blueviolet;
+    color: yellow;
 }
 
 #hero {
@@ -66,14 +65,14 @@ nav a:hover {
 }
 
 .description {
-    background-color: #1b1b1b;
+    /*background-color: #1b1b1b;*/
     color: aliceblue;
     grid-row: 4/6;
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: 100%;
-    padding: .5rem 1rem;
+    padding: .5rem .5rem;
     border-radius: 5px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     align-content: center;
 }
 
@@ -94,14 +93,14 @@ nav a:hover {
 }
 
 .projects article {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     border-radius: 4px;
     padding-bottom: 1rem;
     margin: 3rem 0;
 }
 
 .projects .shrink img {
-    transition: 1s ease;
+    transition: 2s ease;
     border-radius: 6px;
 }
 
@@ -109,14 +108,14 @@ nav a:hover {
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-    transition: 1s ease;
+    transition: 2s ease;
 }
 
-.projects h2 {
-    display: flex;
+.projects h3 {
     padding-left: 1rem;
     color: yellow;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
 }
 
 .projects div {
@@ -167,7 +166,7 @@ article footer a:nth-child(2) {
 .skills {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     border-radius: 4px;
     padding: 1.5rem;
     color: #fff;
@@ -175,16 +174,21 @@ article footer a:nth-child(2) {
     margin-top: -1rem;
 }
 
+.skills-title {
+    color: yellow;
+    display: block;
+}
+
 .skills div img {
     width: 100%;
-    transition: 1s ease;
+    transition: 2s ease;
 }
 
 .skills div img:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    transition: 1s ease;
+    transition: 2s ease;
 }
 
 .skills div {

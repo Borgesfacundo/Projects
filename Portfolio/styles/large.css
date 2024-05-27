@@ -79,12 +79,22 @@
     }
 
     .skills {
-        grid-row: 2/3;
+        grid-row: 3/4;
         grid-column: 2/3;
     }
 
     .skills div img {
         width: 60px;
+    }
+
+    .skills-title {
+        padding-left: 1rem;
+        color: yellow;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        margin-bottom: 4rem;
     }
 
 
