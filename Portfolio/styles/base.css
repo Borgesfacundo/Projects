@@ -205,11 +205,14 @@ article footer a:nth-child(2) {
     color: #fff;
     justify-items: center;
     margin-top: -1rem;
+    margin-bottom: 2rem;
+
 }
 
 .skills-title {
     color: yellow;
     display: block;
+    margin: 0 auto;
 }
 
 .skills div img {
