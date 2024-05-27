@@ -15,8 +15,6 @@ const displaySkills = (skills) => {
         img.setAttribute("width", "100")
         img.setAttribute("height", "100")
 
-
-
         div.appendChild(p);
         div.appendChild(img)
 
@@ -35,3 +33,13 @@ const getSkills = async () => {
 }
 
 getSkills();
+
+const email = "borgesfacundo@gmail.com"
+const copyContent = async () => {
+    try {
+        await navigator.clipboard.writeText(email);
+        alert('Content copied to your clipboard');
+    } catch (err) {
+        console.error('Missing email Information: ', err);
+    }
+}
