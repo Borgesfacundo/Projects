@@ -90,7 +90,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -223,10 +223,6 @@ article footer a:nth-child(2) {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: 1.5s ease;
-}
-
-.skills div {
-    width: 100%;
 }
 
 .foot {
