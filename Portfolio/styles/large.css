@@ -40,6 +40,16 @@
         justify-self: end;
     }
 
+    .contact {
+        justify-content: center;
+        grid-column: 2/3;
+        align-content: center;
+    }
+
+    .contact ul {
+        list-style: none;
+    }
+
     .description {
         grid-column: 2/3;
         grid-row: 3/4;

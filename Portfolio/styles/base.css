@@ -73,6 +73,30 @@ nav a:hover {
     margin: 2rem auto 0 auto;
 }
 
+.contact {
+    width: auto;
+    height: auto;
+    grid-row: 2/3;
+}
+
+.contact ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.contact ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.contact ul li a:hover {
+    color: yellow;
+}
+
 .description {
     /*background-color: #1b1b1b;*/
     color: aliceblue;
