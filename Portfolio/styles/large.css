@@ -14,7 +14,12 @@
         text-align: center;
     }
 
-    .menuLinks {
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.Open {
         display: flex;
         justify-content: flex-end;
         flex-direction: row;

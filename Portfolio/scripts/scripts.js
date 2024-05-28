@@ -43,3 +43,14 @@ const copyContent = async () => {
         console.error('Missing email Information: ', err);
     }
 }
+
+
+
+const hamburgerElement = document.querySelector("#myButton");
+const navElement = document.querySelector(".menuLinks");
+
+hamburgerElement.addEventListener("click", () => {
+    navElement.classList.toggle("open");
+    hamburgerElement.classList.toggle("open");
+});
+
