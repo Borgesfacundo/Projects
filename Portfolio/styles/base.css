@@ -88,13 +88,17 @@ ul.menuLinks.open {
 }
 
 .portrait {
-    border: 1px solid red;
-    border-radius: 9999px;
-    width: 200px;
-    height: 200px;
-    margin: 1rem 10px;
+    width: 150px;
+    height: 150px;
     margin: 2rem auto 0 auto;
+    background-size: cover;
 }
+
+.portrait img {
+    border-radius: 50%;
+}
+
+
 
 .contact {
     width: auto;
