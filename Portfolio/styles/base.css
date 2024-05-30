@@ -17,6 +17,7 @@ body {
     background-image: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
     box-sizing: border-box;
     font-family: "Merriweather", serif;
+    scroll-behavior: smooth;
 }
 
 p {
