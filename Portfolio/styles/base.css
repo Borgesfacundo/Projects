@@ -1,286 +1,291 @@
+.express-invert {
+  filter: invert(1) brightness(2);
+}
 .mate-regular {
-    font-family: "Mate", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .merriweather-regular {
-    font-family: "Merriweather", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #030712;
-    background-image: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
-    box-sizing: border-box;
-    font-family: "Merriweather", serif;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  background-color: #030712;
+  background-image: radial-gradient(
+    ellipse 80% 80% at 50% -20%,
+    #7877c64d,
+    #fff0
+  );
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  scroll-behavior: smooth;
 }
 
 p {
-    font-family: "Mate", serif;
+  font-family: "Mate", serif;
 }
 
 nav {
-    background-color: rgba(255, 254, 254, 0.1);
+  background-color: rgba(255, 254, 254, 0.1);
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
 }
 
 nav a {
-    display: block;
-    color: aliceblue;
-    font-size: 1.5rem;
-    text-align: center;
-    text-decoration: none;
-    padding: 1rem;
+  display: block;
+  color: aliceblue;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
 }
 
 nav a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 #myButton::before {
-    content: "\2630";
+  content: "\2630";
 }
 
 #myButton {
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    width: 44px;
-    text-align: left;
-    padding: .25rem 2vw;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 44px;
+  text-align: left;
+  padding: 0.25rem 2vw;
 }
 
 ul.menuLinks {
-    display: none;
+  display: none;
 }
 
 ul.menuLinks.open {
-    display: block;
+  display: block;
 }
 
 #hero {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin: 1rem;
 }
 
 .name {
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 0 2rem;
-    letter-spacing: 3px;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  letter-spacing: 3px;
 }
 
 .portrait {
-    width: 150px;
-    height: 150px;
-    margin: 2rem auto 0 auto;
-    background-size: cover;
+  width: 150px;
+  height: 150px;
+  margin: 2rem auto 0 auto;
+  background-size: cover;
 }
 
 .portrait img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .contact {
-    height: auto;
-    grid-row: 2/3;
+  height: auto;
+  grid-row: 2/3;
 }
 
 .contact ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0;
-    padding: 0.3rem;
-    list-style: none;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0.3rem;
+  list-style: none;
+  align-items: center;
 }
 
 .contact ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .contact ul li a:hover {
-    color: yellow;
+  color: yellow;
 }
 
 .description {
-    /*background-color: #1b1b1b;*/
-    color: aliceblue;
-    grid-row: 4/6;
-    font-size: 1.5rem;
-    height: 100%;
-    padding: .5rem .5rem;
-    border-radius: 5px;
-    /*border: 1px solid red;*/
-    align-content: center;
+  /*background-color: #1b1b1b;*/
+  color: aliceblue;
+  grid-row: 4/6;
+  font-size: 1.5rem;
+  height: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  /*border: 1px solid red;*/
+  align-content: center;
 }
 
 .about-me {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    box-sizing: border-box;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
 .projects {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #fff;
 }
 
 .projects article {
-    /*border: 1px solid red;*/
-    border-radius: 4px;
-    padding-bottom: 1rem;
-    margin: 3rem 1rem;
+  /*border: 1px solid red;*/
+  border-radius: 4px;
+  padding-bottom: 1rem;
+  margin: 3rem 1rem;
 }
 
 .projects .shrink img {
-    transition: 2s ease;
-    border-radius: 6px;
+  transition: 2s ease;
+  border-radius: 6px;
 }
 
 .projects .shrink img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 2s ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 2s ease;
 }
 
 .projects h3 {
-    padding-left: 1rem;
-    color: yellow;
-    font-size: 1.5rem;
-    letter-spacing: .1rem;
-    align-self: center;
+  padding-left: 1rem;
+  color: yellow;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  align-self: center;
 }
 
 .projects div {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .projects div h3 {
-    color: yellow;
+  color: yellow;
 }
 
 .projects div p {
-    padding: 0 2rem;
-    font-size: 1rem;
+  padding: 0 2rem;
+  font-size: 1rem;
 }
 
 article footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15%;
 }
 
 article footer a {
-    color: #fff;
-    font-size: 1rem;
-    text-decoration: none;
-    color: antiquewhite;
-    background-color: rgb(43, 43, 36);
-    width: 100px;
-    padding: 10px;
-    border: 0;
-    border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  color: antiquewhite;
+  background-color: rgb(43, 43, 36);
+  width: 100px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
 }
 
 article footer a:hover {
-    background-color: #fff;
-    color: #030712;
+  background-color: #fff;
+  color: #030712;
 }
 
 article footer a:nth-child(1) {
-    justify-self: end;
+  justify-self: end;
 }
 
 article footer a:nth-child(2) {
-    justify-self: start;
-
+  justify-self: start;
 }
 
 .skills {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    /*border: 1px solid red;*/
-    border-radius: 4px;
-    padding: 1.5rem;
-    color: #fff;
-    justify-items: center;
-    margin-top: -1rem;
-    margin-bottom: 2rem;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /*border: 1px solid red;*/
+  border-radius: 4px;
+  padding: 1.5rem;
+  color: #fff;
+  justify-items: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
 }
 
 .skills-title {
-    color: yellow;
-    display: block;
-    margin: 0 auto;
+  color: yellow;
+  display: block;
+  margin: 0 auto;
 }
 
 .skills div img {
-    width: 70px;
-    height: 70px;
-    transition: 1.5s ease;
+  width: 70px;
+  height: 70px;
+  transition: 1.5s ease;
 }
 
 .skills div img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1.5s ease;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1.5s ease;
 }
 
 .foot {
-    background-color: rgba(94, 94, 94, 0.5);
-    color: white;
-    justify-content: center;
+  background-color: rgba(94, 94, 94, 0.5);
+  color: white;
+  justify-content: center;
 }
 
 .foot-container {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .foot-container ul {
-    display: flex;
-    gap: 20px;
-    padding: 0 1rem;
-    box-sizing: border-box;
-    list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 .foot-container span {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
-    align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-self: center;
 }

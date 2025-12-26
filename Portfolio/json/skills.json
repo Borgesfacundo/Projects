@@ -1,42 +1,67 @@
 [
-    {
-        "name": "HTML",
-        "img": "https://svgl.app/library/html5.svg",
-        "desc": "HTML5 icon"
-    },
-    {
-        "name": "CSS",
-        "img": "https://svgl.app/library/css.svg",
-        "desc": "CSS icon"
-    },
-    {
-        "name": "JS",
-        "img": "https://svgl.app/library/javascript.svg",
-        "desc": "Javascript icon"
-    },
-    {
-        "name": "React",
-        "img": "https://svgl.app/library/react.svg",
-        "desc": "React icon"
-    },
-    {
-        "name": "C#",
-        "img": "https://svgl.app/library/csharp.svg",
-        "desc": "C# icon"
-    },
-    {
-        "name": "Python",
-        "img": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
-        "desc": "Python icon"
-    },
-    {
-        "name": "Git",
-        "img": "https://svgl.app/library/git.svg",
-        "desc": "Git icon"
-    },
-    {
-        "name": "Github",
-        "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/github-mark-white.svg",
-        "desc": "Github icon"
-    }
+  {
+    "name": "HTML",
+    "img": "https://svgl.app/library/html5.svg",
+    "desc": "HTML5 icon"
+  },
+  {
+    "name": "CSS",
+    "img": "https://svgl.app/library/css.svg",
+    "desc": "CSS icon"
+  },
+  {
+    "name": "JS",
+    "img": "https://svgl.app/library/javascript.svg",
+    "desc": "Javascript icon"
+  },
+  {
+    "name": "React",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "desc": "React icon"
+  },
+  {
+    "name": "Next.js",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "desc": "Next.js icon (white on black)"
+  },
+  {
+    "name": "Node.js",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg",
+    "desc": "Node.js icon (plain)"
+  },
+  {
+    "name": "Express",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
+    "desc": "Express.js icon (wordmark)"
+  },
+  {
+    "name": "MySQL",
+    "img": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
+    "desc": "MySQL icon"
+  },
+  {
+    "name": "C#",
+    "img": "https://svgl.app/library/csharp.svg",
+    "desc": "C# icon"
+  },
+  {
+    "name": "Python",
+    "img": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+    "desc": "Python icon"
+  },
+  {
+    "name": "Git",
+    "img": "https://svgl.app/library/git.svg",
+    "desc": "Git icon"
+  },
+  {
+    "name": "Github",
+    "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/github-mark-white.svg",
+    "desc": "Github icon"
+  },
+  {
+    "name": "MongoDB",
+    "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "desc": "MongoDB icon"
+  }
 ]
