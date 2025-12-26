@@ -1,23 +1,33 @@
 [
-    {
-        "name": "Yugi Mutto First Deck",
-        "desc": "In this project I had to create a page that shows to the users all cards that were in a JSON file using JavaScript, CSS and HTML.",
-        "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/YuGiOhWebpage.webp",
-        "github": "https://github.com/Borgesfacundo/cse121b/tree/main/Final%20Project",
-        "web": "https://borgesfacundo.github.io/cse121b/Final%20Project/project.html"
-    },
-    {
-        "name": "Juliers - Chamber of Commerce",
-        "desc": "This is an example of a Chamber of Commerce website in which the user can see some information about the neighboarhood, the local bussinesses and join the Chamber completing a form.",
-        "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ChamberOfCommerce.webp",
-        "github": "https://github.com/Borgesfacundo/wdd230/tree/main/chamber",
-        "web": "https://borgesfacundo.github.io/wdd230/chamber/index.html"
-    },
-    {
-        "name": "ARTZY Design",
-        "desc": "Artzy is my first project based on a webpage that is offering webpages to the user. Created with HTML and CSS.",
-        "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ArtzyWebpage.webp",
-        "github": "https://github.com/Borgesfacundo/wdd130/tree/master/artzy",
-        "web": "https://borgesfacundo.github.io/wdd130/artzy/help.html"
-    }
+  {
+    "name": "Yugi Mutto First Deck",
+    "desc": "In this project I had to create a page that shows to the users all cards that were in a JSON file using JavaScript, CSS and HTML.",
+    "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/YuGiOhWebpage.webp",
+    "github": "https://github.com/Borgesfacundo/cse121b/tree/main/Final%20Project",
+    "web": "https://borgesfacundo.github.io/cse121b/Final%20Project/project.html"
+  },
+  {
+    "name": "Handcrafted Haven Project",
+    "desc": "Handcrafted Haven is an online store for handcrafted items, built with Next.js, React, and Tailwind CSS. Users can purchase products from different sellers, with all information and purchases managed using a MongoDB database.",
+    "img": "images/Handcrafted Heaven Project.png",
+    "github": "https://github.com/cristhina23/Handcrafted-Haven/",
+    "web": "https://handcrafted-haven-fawn-pi.vercel.app/",
+    "tech": ["Next.js", "React", "Tailwind CSS", "MongoDB"]
+  },
+  {
+    "name": "ARTZY Design",
+    "desc": "Artzy is my first project based on a webpage that is offering webpages to the user. Created with HTML and CSS.",
+    "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ArtzyWebpage.webp",
+    "github": "https://github.com/Borgesfacundo/wdd130/tree/master/artzy",
+    "web": "https://borgesfacundo.github.io/wdd130/artzy/help.html"
+  }
+],
+"_archived": [
+  {
+    "name": "Juliers - Chamber of Commerce",
+    "desc": "This is an example of a Chamber of Commerce website in which the user can see some information about the neighboarhood, the local businesses and join the Chamber completing a form.",
+    "img": "https://borgesfacundo.github.io/Projects/Portfolio/images/ChamberOfCommerce.webp",
+    "github": "https://github.com/Borgesfacundo/wdd230/tree/main/chamber",
+    "web": "https://borgesfacundo.github.io/wdd230/chamber/index.html"
+  }
 ]
