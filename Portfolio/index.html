@@ -1,88 +1,140 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Facundo Emanuel Borges">
-    <meta name="description" content="Facundo Borges Portfolio created with HTML, CSS and JS">
-    <meta property="og:title" content="Facundo Borges Portfolio">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://borgesfacundo.github.io/Projects/Portfolio/images/socialPicture.JPG">
-    <meta property="og:url" content="https://borgesfacundo.github.io/Projects/Portfolio/">
-    <link rel="stylesheet" href="styles/base.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Facundo Emanuel Borges" />
+    <meta
+      name="description"
+      content="Facundo Borges Portfolio created with HTML, CSS and JS"
+    />
+    <meta property="og:title" content="Facundo Borges Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://borgesfacundo.github.io/Projects/Portfolio/images/socialPicture.JPG"
+    />
+    <meta
+      property="og:url"
+      content="https://borgesfacundo.github.io/Projects/Portfolio/"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
     <title>Facundo's Portfolio</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
     </style>
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <button id="myButton" aria-label="display-menu"></button>
-        <ul class="menuLinks">
-            <li><a href="#portrait">Main</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
+      <button id="myButton" aria-label="display-menu"></button>
+      <ul class="menuLinks">
+        <li><a href="#portrait">Main</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
     </nav>
 
     <main>
-        <section id="hero">
-            <div class="name">
-                <div id="portrait" class="portrait"><img src="images/profile11.webp" loading="lazy" width="150"
-                        height="150" alt="Facundo Emanuel Borges"></div>
-                <h2>Web and Software Development</h2>
-                <h2>Facundo Borges</h2>
-            </div>
-            <div class="contact">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/facundo-borges-85a99a291/"><img src="images/linkedin.svg"
-                                alt="LinkedIn logo" width="20" height="20"> LinkedIn</a>
-                    </li>
-                    <li><a href="https://github.com/Borgesfacundo"><img src="images/Githubwhite.webp" alt="Github logo"
-                                width="22" height="22"> Github</a>
-                    </li>
-                    <li><a class="btn" id="myEmail" onclick="copyContent()"><img src="images/gmail.svg" alt="email logo"
-                                width="20" height="20"> Email</a></li>
-                </ul>
-            </div>
-            <div class="description" id="desc">
-                <p>I am pursuing my Computer Science Bachelor's Degree at Brigham Young University Idaho. Fluency in
-                    English, Portuguese, and Spanish and capacity to learn and apply new technologies and work with
-                    different teams.
-                </p>
-            </div>
-        </section>
+      <section id="hero">
+        <div class="name">
+          <div id="portrait" class="portrait">
+            <img
+              src="images/profile11.webp"
+              loading="lazy"
+              width="150"
+              height="150"
+              alt="Facundo Emanuel Borges"
+            />
+          </div>
+          <h2>Web and Software Development</h2>
+          <h2>Facundo Borges</h2>
+        </div>
+        <div class="contact">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/facundo-borges-85a99a291/"
+                ><img
+                  src="images/linkedin.svg"
+                  alt="LinkedIn logo"
+                  width="20"
+                  height="20"
+                />
+                LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Borgesfacundo"
+                ><img
+                  src="images/Githubwhite.webp"
+                  alt="Github logo"
+                  width="22"
+                  height="22"
+                />
+                Github</a
+              >
+            </li>
+            <li>
+              <a class="btn" id="myEmail" onclick="copyContent()"
+                ><img
+                  src="images/gmail.svg"
+                  alt="email logo"
+                  width="20"
+                  height="20"
+                />
+                Email</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="description" id="desc">
+          <p>
+            I’m a Software Development student focused on building backend and
+            full-stack web applications using JavaScript, Node.js, and
+            relational databases. I enjoy designing RESTful APIs, learning new
+            technologies, and collaborating in team-based projects.
+          </p>
+        </div>
+      </section>
 
-        <section class="about-me">
-
-            <div class="projects" id="projects">
-                <h3>Projects</h3>
-            </div>
-            <h3 class="skills-title">Skills</h3>
-            <div class="skills" id="skills">
-            </div>
-        </section>
+      <section class="about-me">
+        <div class="projects" id="projects">
+          <h3>Projects</h3>
+        </div>
+        <h3 class="skills-title">Skills</h3>
+        <div class="skills" id="skills"></div>
+      </section>
     </main>
 
     <footer class="foot">
-        <div class="foot-container">
-            <span>© 2024 Facundo Borges. </span>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/facundo-borges-85a99a291/"><img src="images/linkedin.svg"
-                            alt="LinkedIn" width="30" height="30"></a></li>
-                <li><a href="https://github.com/Borgesfacundo"><img src="images/Githubwhite.webp" alt="Github"
-                            width="32" height="32"></a></li>
-            </ul>
-        </div>
+      <div class="foot-container">
+        <span>© 2024 Facundo Borges. </span>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/facundo-borges-85a99a291/"
+              ><img
+                src="images/linkedin.svg"
+                alt="LinkedIn"
+                width="30"
+                height="30"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Borgesfacundo"
+              ><img
+                src="images/Githubwhite.webp"
+                alt="Github"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/projects.js"></script>
-</body>
-
+  </body>
 </html>
